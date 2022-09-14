@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
   },
-  setupFilesAfterEnv: ['./src/jest.setup.ts'],
+  setupFilesAfterEnv: ['./src/jest.setup.ts'], // runs file after test
   coverageThreshold: {
     global: {
       branches: 100,
