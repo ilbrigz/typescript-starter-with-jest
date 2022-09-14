@@ -10,6 +10,7 @@
     "test": "jest",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
+    "coverage": "jest --collect-coverage",
     "test:ci": "jest --coverage --silent --ci"
   },
   "dependencies": {
